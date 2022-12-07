@@ -3,4 +3,4 @@
 
 FROM jupyter/scipy-notebook
 
-RUN conda install scikit-learn=0.24.* numpy=1.21.0 scipy=1.7.*
+RUN conda install scikit-learn=1.1.3 numpy=1.23.5 scipy=1.9.3
